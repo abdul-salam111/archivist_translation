@@ -2,17 +2,20 @@
   "auth": {
     "helloAgain": "Hello Again",
     "logIntoYourAccount": "Log into your account",
+    "appTagline": "Homework, attendance and fees — all in one place.",
+    "whatsappNumber": "WhatsApp number",
     "enterWhatsappNumber": "Enter your WhatsApp number",
+    "password": "Password",
     "enterPassword": "Enter your password",
     "enterConfirmPassword": "Enter your confirm password",
     "enterEmail": "Enter your email",
     "forgotPassword": "Forgot Password?",
-    "login": "Login",
+    "login": "Log in",
     "signUp": "Sign up",
     "signIn": "Sign In",
     "dontHaveAccount": "Don't have an account?",
-    "haveAccount": "Have an account?",
-    "createAccount": "Create Account",
+    "haveAccount": "Already have an account? ",
+    "createAccount": "Create account",
     "verify": "Verify",
     "resendOtp": "Resend OTP",
     "loggedIn": "Logged In",
@@ -50,7 +53,19 @@
     "sessionExpired": "Session expired. Please login again.",
     "authenticationError": "Authentication error",
     "confirmPasswordRequired": "Confirm Password is required",
-    "passwordDoesNotMatch": "Passwords do not match"
+    "passwordDoesNotMatch": "Passwords do not match",
+    "niceToSeeYouSubtitle": "Nice to see you — let's get you set up.",
+    "fullNameLabel": "Full name",
+    "fullNameHint": "e.g. Sara Ben Ali",
+    "whatsAppNumberLabel": "WhatsApp number",
+    "phoneNumberHint": "12 345 678",
+    "passwordLabel": "Password",
+    "passwordHint": "At least 8 characters",
+    "confirmPasswordLabel": "Confirm password",
+    "confirmPasswordHint": "Re-enter password",
+    "agreeToTermsAndPrivacy": "I agree to the {terms} and {privacy}",
+    "termsLabel": "Terms",
+    "privacyPolicyLabel": "Privacy Policy"
   },
   "homework": {
     "title": "HomeWork",
@@ -189,11 +204,13 @@
     "chooseYourRole": "Choose your role",
     "account": "Account",
     "cancel": "Cancel",
+    "gotIt": "Got it",
     "maintenanceException": "The service is currently under maintenance. Please try again later.",
     "notfoundException": "Method not found. Please contact support.",
     "unknown": "Unknown",
     "selectYear": "Select Year",
     "failedToChangeLanguage": "Failed to change language.",
+    "chooseLanguage": "Choose Language",
     "na": "N/A",
     "pleaseTryAgainLater": "Please try again later.",
     "downloadingProgress": "Downloading... {progress}%",
@@ -224,7 +241,16 @@
     "student": "Student",
     "teacher": "Teacher",
     "parent": "Parent",
-    "admin": "Admin"
+    "admin": "Admin",
+    "welcomeSubtitle": "Choose how you'll use the app. You can switch roles later from settings.",
+    "parentDescription": "Follow your child's homework, attendance & fees",
+    "studentDescription": "See assignments, timetable and results",
+    "teacherDescription": "Mark attendance, post homework, message parents",
+    "adminDescription": "Manage school records, notices and fees",
+    "continueAs": "Continue as",
+    "notSureWhichOne": "Not sure which one?",
+    "askYourSchool": "Ask your school",
+    "askYourSchoolMessage": "Reach out to your school's administration office - they can tell you which role fits your account."
   },
   "empty": {
     "noStudentAvailable": "No student data available",
@@ -286,5 +312,9 @@
     "pleaseUpdate": "Please update the app to continue.",
     "updateOnAppStore": "Update on App Store",
     "updateOnPlayStore": "Update on Play Store"
+  },
+  "splash": {
+    "tagline": "Your child's school, in your pocket",
+    "secureCommunication": "Secure school communication"
   }
 }
