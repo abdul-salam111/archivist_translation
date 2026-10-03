@@ -2,7 +2,10 @@
   "auth": {
     "helloAgain": "Hola de nuevo",
     "logIntoYourAccount": "Inicia sesión en tu cuenta",
+    "appTagline": "Tareas, asistencia y cuotas - todo en un solo lugar.",
+    "whatsappNumber": "Número de WhatsApp",
     "enterWhatsappNumber": "Ingresa tu número de WhatsApp",
+    "password": "Contraseña",
     "enterPassword": "Ingresa tu contraseña",
     "enterConfirmPassword": "Confirma tu contraseña",
     "enterEmail": "Ingresa tu correo electrónico",
@@ -11,7 +14,7 @@
     "signUp": "Registrarse",
     "signIn": "Iniciar sesión",
     "dontHaveAccount": "¿No tienes una cuenta?",
-    "haveAccount": "¿Ya tienes una cuenta?",
+    "haveAccount": "¿Ya tienes una cuenta? ",
     "createAccount": "Crear cuenta",
     "verify": "Verificar",
     "resendOtp": "Reenviar OTP",
@@ -50,7 +53,19 @@
     "sessionExpired": "Sesión expirada. Por favor, inicia sesión de nuevo.",
     "authenticationError": "Error de autenticación",
     "confirmPasswordRequired": "La confirmación de contraseña es obligatoria",
-    "passwordDoesNotMatch": "Las contraseñas no coinciden"
+    "passwordDoesNotMatch": "Las contraseñas no coinciden",
+    "niceToSeeYouSubtitle": "Qué bueno verte — vamos a configurarte.",
+    "fullNameLabel": "Nombre completo",
+    "fullNameHint": "ej. Sara Ben Ali",
+    "whatsAppNumberLabel": "Número de WhatsApp",
+    "phoneNumberHint": "12 345 678",
+    "passwordLabel": "Contraseña",
+    "passwordHint": "Al menos 8 caracteres",
+    "confirmPasswordLabel": "Confirmar contraseña",
+    "confirmPasswordHint": "Vuelve a escribir la contraseña",
+    "agreeToTermsAndPrivacy": "Acepto los {terms} y la {privacy}",
+    "termsLabel": "Términos",
+    "privacyPolicyLabel": "Política de Privacidad"
   },
   "homework": {
     "title": "Tareas",
@@ -189,11 +204,13 @@
     "chooseYourRole": "Elige tu rol",
     "account": "Cuenta",
     "cancel": "Cancelar",
+    "gotIt": "Entendido",
     "maintenanceException": "El servicio está actualmente en mantenimiento. Por favor inténtalo más tarde.",
     "notfoundException": "Método no encontrado. Por favor contacta al soporte.",
     "unknown": "Desconocido",
     "selectYear": "Seleccionar año",
     "failedToChangeLanguage": "Error al cambiar el idioma.",
+    "chooseLanguage": "Elegir idioma",
     "na": "N/D",
     "pleaseTryAgainLater": "Por favor inténtalo más tarde.",
     "downloadingProgress": "Descargando... {progress}%",
@@ -224,7 +241,16 @@
     "student": "Estudiante",
     "teacher": "Maestro",
     "parent": "Padre/Madre",
-    "admin": "Administrador"
+    "admin": "Administrador",
+    "welcomeSubtitle": "Elige cómo usarás la aplicación. Puedes cambiar de rol más tarde desde ajustes.",
+    "parentDescription": "Sigue las tareas, la asistencia y las cuotas de tu hijo",
+    "studentDescription": "Consulta tareas, horario y resultados",
+    "teacherDescription": "Registra asistencia, publica tareas, contacta a los padres",
+    "adminDescription": "Gestiona registros escolares, avisos y cuotas",
+    "continueAs": "Continuar como",
+    "notSureWhichOne": "¿No estás seguro de cuál elegir?",
+    "askYourSchool": "Pregunta a tu escuela",
+    "askYourSchoolMessage": "Contacta a la administración de tu escuela - ellos pueden indicarte qué rol corresponde a tu cuenta."
   },
   "empty": {
     "noStudentAvailable": "No hay datos de estudiantes disponibles",
@@ -286,5 +312,9 @@
     "pleaseUpdate": "Por favor actualiza la aplicación para continuar.",
     "updateOnAppStore": "Actualizar en App Store",
     "updateOnPlayStore": "Actualizar en Play Store"
+  },
+  "splash": {
+    "tagline": "La escuela de tu hijo, en tu bolsillo",
+    "secureCommunication": "Comunicación escolar segura"
   }
 }
