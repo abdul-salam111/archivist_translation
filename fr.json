@@ -2,16 +2,19 @@
   "auth": {
     "helloAgain": "Bonjour à nouveau",
     "logIntoYourAccount": "Connectez-vous à votre compte",
+    "appTagline": "Devoirs, présence et frais - tout en un seul endroit.",
+    "whatsappNumber": "Numéro WhatsApp",
     "enterWhatsappNumber": "Entrez votre numéro WhatsApp",
+    "password": "Mot de passe",
     "enterPassword": "Entrez votre mot de passe",
     "enterConfirmPassword": "Confirmez votre mot de passe",
     "enterEmail": "Entrez votre adresse e-mail",
     "forgotPassword": "Mot de passe oublié ?",
-    "login": "Connexion",
+    "login": "Se connecter",
     "signUp": "S'inscrire",
     "signIn": "Se connecter",
     "dontHaveAccount": "Vous n'avez pas de compte ?",
-    "haveAccount": "Vous avez un compte ?",
+    "haveAccount": "Vous avez déjà un compte ? ",
     "createAccount": "Créer un compte",
     "verify": "Vérifier",
     "resendOtp": "Renvoyer le code OTP",
@@ -50,7 +53,19 @@
     "sessionExpired": "Session expirée. Veuillez vous reconnecter.",
     "authenticationError": "Erreur d'authentification",
     "confirmPasswordRequired": "La confirmation du mot de passe est requise",
-    "passwordDoesNotMatch": "Les mots de passe ne correspondent pas"
+    "passwordDoesNotMatch": "Les mots de passe ne correspondent pas",
+    "niceToSeeYouSubtitle": "Ravi de vous revoir — configurons votre compte.",
+    "fullNameLabel": "Nom complet",
+    "fullNameHint": "ex. Sara Ben Ali",
+    "whatsAppNumberLabel": "Numéro WhatsApp",
+    "phoneNumberHint": "12 345 678",
+    "passwordLabel": "Mot de passe",
+    "passwordHint": "Au moins 8 caractères",
+    "confirmPasswordLabel": "Confirmer le mot de passe",
+    "confirmPasswordHint": "Ressaisissez le mot de passe",
+    "agreeToTermsAndPrivacy": "J'accepte les {terms} et la {privacy}",
+    "termsLabel": "Conditions",
+    "privacyPolicyLabel": "Politique de Confidentialité"
   },
   "homework": {
     "title": "Devoirs",
@@ -189,11 +204,13 @@
     "chooseYourRole": "Choisissez votre rôle",
     "account": "Compte",
     "cancel": "Annuler",
+    "gotIt": "Compris",
     "maintenanceException": "Le service est actuellement en maintenance. Veuillez réessayer plus tard.",
     "notfoundException": "Méthode introuvable. Veuillez contacter le support.",
     "unknown": "Inconnu",
     "selectYear": "Sélectionner l'année",
     "failedToChangeLanguage": "Échec du changement de langue.",
+    "chooseLanguage": "Choisir la langue",
     "na": "N/D",
     "pleaseTryAgainLater": "Veuillez réessayer plus tard.",
     "downloadingProgress": "Téléchargement en cours... {progress}%",
@@ -224,7 +241,16 @@
     "student": "Élève",
     "teacher": "Enseignant",
     "parent": "Parent",
-    "admin": "Administrateur"
+    "admin": "Administrateur",
+    "welcomeSubtitle": "Choisissez comment vous utiliserez l'application. Vous pourrez changer de rôle plus tard dans les paramètres.",
+    "parentDescription": "Suivez les devoirs, la présence et les frais de votre enfant",
+    "studentDescription": "Consultez les devoirs, l'emploi du temps et les résultats",
+    "teacherDescription": "Marquez la présence, publiez des devoirs, contactez les parents",
+    "adminDescription": "Gérez les dossiers scolaires, les avis et les frais",
+    "continueAs": "Continuer en tant que",
+    "notSureWhichOne": "Vous ne savez pas lequel choisir ?",
+    "askYourSchool": "Demandez à votre école",
+    "askYourSchoolMessage": "Contactez l'administration de votre école - elle pourra vous indiquer le rôle qui correspond à votre compte."
   },
   "empty": {
     "noStudentAvailable": "Aucune donnée d'élève disponible",
@@ -286,5 +312,9 @@
     "pleaseUpdate": "Veuillez mettre à jour l'application pour continuer.",
     "updateOnAppStore": "Mettre à jour sur l'App Store",
     "updateOnPlayStore": "Mettre à jour sur le Play Store"
+  },
+  "splash": {
+    "tagline": "L'école de votre enfant, dans votre poche",
+    "secureCommunication": "Communication scolaire sécurisée"
   }
 }
