@@ -122,7 +122,8 @@
     "noSlipFound": "No fee slip data available",
     "subTotal": "Sub Total",
     "tax": "Tax",
-    "netAmount": "Net Amount"
+    "netAmount": "Net Amount",
+    "pay": "Pay"
   },
   "exams": {
     "title": "Exams",
@@ -332,5 +333,17 @@
   "splash": {
     "tagline": "Your child's school, in your pocket",
     "secureCommunication": "Secure school communication"
+  },
+  "home": {
+    "overviewTitle": "{name}'s overview",
+    "quickAccess": "Quick access",
+    "latestNotices": "Latest notices",
+    "seeAll": "See all",
+    "submitBy": "Submit by {time}",
+    "noOutstandingFee": "No pending fee dues",
+    "noHomeworkToday": "No homework due today",
+    "presentThisMonth": "{percent}% this month",
+    "checkedInToday": "Checked in today",
+    "homeworkDueToday": "{count} due today"
   }
 }
