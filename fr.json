@@ -120,6 +120,7 @@
     "noRecordFound": "Aucun enregistrement de frais trouvé",
     "noVouchersFound": "Aucun bon trouvé",
     "noSlipFound": "Aucune donnée de reçu disponible",
+    "pay": "Payer",
     "subTotal": "Sous-total",
     "tax": "Taxe",
     "netAmount": "Montant net"
@@ -332,5 +333,17 @@
   "splash": {
     "tagline": "L'école de votre enfant, dans votre poche",
     "secureCommunication": "Communication scolaire sécurisée"
+  },
+  "home": {
+    "overviewTitle": "Aperçu de {name}",
+    "quickAccess": "Accès rapide",
+    "latestNotices": "Dernières annonces",
+    "seeAll": "Voir tout",
+    "submitBy": "À soumettre avant {time}",
+    "noOutstandingFee": "Aucun frais en attente",
+    "noHomeworkToday": "Aucun devoir aujourd'hui",
+    "presentThisMonth": "{percent}% ce mois-ci",
+    "checkedInToday": "Pointé aujourd'hui",
+    "homeworkDueToday": "{count} à rendre aujourd'hui"
   }
 }
