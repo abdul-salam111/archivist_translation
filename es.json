@@ -110,6 +110,7 @@
     "voucherNo": "N° de comprobante",
     "amount": "Monto",
     "dueDate": "Fecha de vencimiento",
+    "pay": "Pagar",
     "fine": "Multa",
     "paid": "Pagado",
     "paidOn": "Pagado el",
@@ -332,5 +333,17 @@
   "splash": {
     "tagline": "La escuela de tu hijo, en tu bolsillo",
     "secureCommunication": "Comunicación escolar segura"
+  },
+  "home": {
+    "overviewTitle": "Resumen de {name}",
+    "quickAccess": "Acceso rápido",
+    "latestNotices": "Últimos avisos",
+    "seeAll": "Ver todo",
+    "submitBy": "Entregar antes de {time}",
+    "noOutstandingFee": "Sin cuotas pendientes",
+    "noHomeworkToday": "Sin tareas para hoy",
+    "presentThisMonth": "{percent}% este mes",
+    "checkedInToday": "Asistencia registrada hoy",
+    "homeworkDueToday": "{count} para hoy"
   }
 }
