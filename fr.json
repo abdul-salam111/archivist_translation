@@ -71,6 +71,8 @@
   },
   "homework": {
     "title": "Devoirs",
+    "homeworkDetails": "Détails des devoirs",
+    "description": "Description",
     "deadline": "Date limite",
     "upload": "Déposer le devoir",
     "reUpload": "Re-déposer le devoir",
@@ -79,6 +81,7 @@
     "pending": "En attente",
     "incomplete": "Incomplet",
     "assigned": "Assigné",
+    "assignedBy": "Attribué par",
     "markCompleted": "Marquer comme terminé",
     "completedInstruction": "Lorsque le devoir est terminé, cliquez sur ce bouton",
     "attachments": "Pièces jointes du devoir",
@@ -98,7 +101,17 @@
     "overDue": "En retard",
     "fullMonthStatus": "Statut du mois complet",
     "noDataForDate": "Données introuvables, veuillez sélectionner une autre date.",
-    "unknownSubject": "Matière inconnue"
+    "unknownSubject": "Matière inconnue",
+    "tomorrow": "Demain",
+    "allDone": "Tout est fait",
+    "task": "devoir",
+    "tasks": "devoirs",
+    "dayLate": "jour de retard",
+    "daysLate": "jours de retard",
+    "notSubmitted": "Non remis",
+    "assignmentNotSubmitted": "devoir non remis",
+    "assignmentsNotSubmitted": "devoirs non remis",
+    "missingInstruction": "Date limite dépassée. Soumettez-le dès que possible ou parlez-en à l'enseignant."
   },
   "fee": {
     "title": "Frais",
@@ -116,14 +129,26 @@
     "balance": "Solde",
     "outstandingBalance": "Solde impayé",
     "overdue": "En retard",
-    "slipId": "ID de reçu",
+    "due": "Échéance",
+    "overdueSince": "En retard depuis",
+    "of": "sur",
+    "session": "Session",
+    "slipId": "Reçu",
+    "issued": "Émis le",
     "noRecordFound": "Aucun enregistrement de frais trouvé",
     "noVouchersFound": "Aucun bon trouvé",
     "noSlipFound": "Aucune donnée de reçu disponible",
-    "pay": "Payer",
     "subTotal": "Sous-total",
     "tax": "Taxe",
-    "netAmount": "Montant net"
+    "netAmount": "Montant net",
+    "service": "Service",
+    "fee": "Frais",
+    "total": "Total",
+    "discount": "Remise",
+    "feeBreakdown": "Détail des frais",
+    "itemsCount": "{count} éléments",
+    "downloadReceipt": "Télécharger le reçu",
+    "voucherDetails": "Détails du bon"
   },
   "exams": {
     "title": "Examens",
@@ -137,9 +162,18 @@
     "passingMarks": "Points de passage",
     "rank": "Classement",
     "status": "Statut",
+    "result": "Résultat",
     "pass": "Réussi",
     "fail": "Échoué",
     "subject": "Matière",
+    "className": "Classe",
+    "section": "Section",
+    "rollNo": "N° de liste",
+    "subjects": "Matières",
+    "ended": "Terminé",
+    "total": "Total",
+    "obtained": "Obtenu",
+    "passing": "Admissible",
     "firstTermExam": "Examen du premier trimestre",
     "noExamsFound": "Aucun examen trouvé",
     "noDataAvailable": "Aucune donnée d'examen disponible",
@@ -149,7 +183,14 @@
     "inProgress": "En cours",
     "daysLeft": "jours restants",
     "resultCard": "Bulletin de notes",
-    "exam": "Examen"
+    "exam": "Examen",
+    "results": "Résultats",
+    "upcoming": "À venir",
+    "papers": "épreuves",
+    "inDays": "dans {count} jours",
+    "inDay": "dans 1 jour",
+    "upNext": "À suivre",
+    "dateSheet": "Calendrier des épreuves"
   },
   "messages": {
     "title": "Messages",
@@ -158,7 +199,10 @@
     "typeAMessage": "Tapez un message...",
     "reply": "Répondre",
     "noMessagesFound": "Aucun message trouvé",
-    "cannotGetMessages": "Impossible de récupérer les messages"
+    "cannotGetMessages": "Impossible de récupérer les messages",
+    "searchConversations": "Rechercher des conversations",
+    "noResultsFound": "Aucune conversation ne correspond à votre recherche",
+    "newMessage": "Nouveau message"
   },
   "navigation": {
     "homework": "Devoirs",
@@ -218,6 +262,9 @@
     "selectYear": "Sélectionner l'année",
     "failedToChangeLanguage": "Échec du changement de langue.",
     "chooseLanguage": "Choisir la langue",
+    "chooseStudent": "Choisir l'élève",
+    "switchChild": "Changer d'enfant",
+    "addChild": "Ajouter un enfant",
     "language": "Langue",
     "activeRole": "Rôle actif",
     "preferences": "Préférences",
@@ -291,7 +338,12 @@
     "noRecord": "Aucun enregistrement",
     "late": "En retard",
     "leave": "Congé",
-    "off": "Repos"
+    "off": "Repos",
+    "holiday": "Jour férié",
+    "missedClasses": "Cours manqués",
+    "totalMissedClasses": "Total des cours manqués",
+    "belowThreshold": "Votre présence est de {percent} % — en dessous du seuil requis de {threshold} %",
+    "monthlyBreakdown": "Répartition mensuelle"
   },
   "leaves": {
     "totalLeaves": "Total des congés",
@@ -306,13 +358,27 @@
     "enterLeaveDetails": "Entrez les détails du congé",
     "addAttachments": "Ajouter des pièces jointes",
     "submitApplication": "Soumettre la demande",
-    "datesLabel": "Date(s)"
+    "datesLabel": "Date(s)",
+    "leaveHistory": "Historique des congés",
+    "requestedBy": "Demandé par"
   },
   "notices": {
     "untitled": "Sans titre",
     "noticeNotFound": "Avis introuvable",
     "notice": "Avis",
-    "noticeNumber": "Avis N°"
+    "noticeNumber": "Avis N°",
+    "searchNotices": "Rechercher des avis",
+    "unread": "Non lu",
+    "today": "Aujourd'hui",
+    "yesterday": "Hier",
+    "earlier": "Plus tôt",
+    "noResultsFound": "Aucun avis ne correspond à votre recherche",
+    "noticeDetails": "Détails de l'avis",
+    "questions": "Questions",
+    "questionsPrivacyNote": "Seuls vous et l'école pouvez les voir",
+    "schoolAdmin": "Administration de l'école",
+    "noQuestionsYet": "Aucune question pour l'instant — posez-en une ci-dessous",
+    "askAQuestion": "Poser une question"
   },
   "stories": {
     "new": "Nouveau",
@@ -339,11 +405,13 @@
     "quickAccess": "Accès rapide",
     "latestNotices": "Dernières annonces",
     "seeAll": "Voir tout",
+    "seeLess": "Voir moins",
     "submitBy": "À soumettre avant {time}",
     "noOutstandingFee": "Aucun frais en attente",
     "noHomeworkToday": "Aucun devoir aujourd'hui",
     "presentThisMonth": "{percent}% ce mois-ci",
     "checkedInToday": "Pointé aujourd'hui",
-    "homeworkDueToday": "{count} à rendre aujourd'hui"
+    "homeworkDueToday": "{count} à rendre aujourd'hui",
+    "thisMonth": "Ce mois-ci"
   }
 }
