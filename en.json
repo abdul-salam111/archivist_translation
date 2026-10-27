@@ -71,6 +71,8 @@
   },
   "homework": {
     "title": "HomeWork",
+    "homeworkDetails": "Homework Details",
+    "description": "Description",
     "deadline": "Deadline",
     "upload": "Upload Homework",
     "reUpload": "Re-upload Homework",
@@ -79,6 +81,7 @@
     "pending": "Pending",
     "incomplete": "Incomplete",
     "assigned": "Assigned",
+    "assignedBy": "Assigned by",
     "markCompleted": "Mark Completed",
     "completedInstruction": "When the homework is completed, click this button",
     "attachments": "Homework Attachments",
@@ -98,7 +101,17 @@
     "overDue": "Over Due",
     "fullMonthStatus": "Full Month Status",
     "noDataForDate": "Data not found, please select any other date.",
-    "unknownSubject": "Unknown Subject"
+    "unknownSubject": "Unknown Subject",
+    "tomorrow": "Tomorrow",
+    "allDone": "All done",
+    "task": "task",
+    "tasks": "tasks",
+    "dayLate": "day late",
+    "daysLate": "days late",
+    "notSubmitted": "Not submitted",
+    "assignmentNotSubmitted": "assignment not submitted",
+    "assignmentsNotSubmitted": "assignments not submitted",
+    "missingInstruction": "Past the due date. Submit as soon as possible or talk to the teacher."
   },
   "fee": {
     "title": "Fee",
@@ -114,16 +127,28 @@
     "paid": "Paid",
     "paidOn": "Paid on",
     "balance": "Balance",
-    "outstandingBalance": "Outstanding Balance",
+    "outstandingBalance": "Outstanding balance",
     "overdue": "Overdue",
-    "slipId": "Slip Id",
+    "due": "Due",
+    "overdueSince": "Overdue since",
+    "of": "of",
+    "session": "Session",
+    "slipId": "Slip",
+    "issued": "Issued",
     "noRecordFound": "No fee record found",
     "noVouchersFound": "No vouchers found",
     "noSlipFound": "No fee slip data available",
     "subTotal": "Sub Total",
     "tax": "Tax",
     "netAmount": "Net Amount",
-    "pay": "Pay"
+    "service": "Service",
+    "fee": "Fee",
+    "total": "Total",
+    "discount": "Discount",
+    "feeBreakdown": "Fee Breakdown",
+    "itemsCount": "{count} items",
+    "downloadReceipt": "Download receipt",
+    "voucherDetails": "Voucher details"
   },
   "exams": {
     "title": "Exams",
@@ -137,9 +162,18 @@
     "passingMarks": "Passing Marks",
     "rank": "Rank",
     "status": "Status",
+    "result": "Result",
     "pass": "Pass",
     "fail": "Fail",
     "subject": "Subject",
+    "className": "Class",
+    "section": "Section",
+    "rollNo": "Roll no.",
+    "subjects": "Subjects",
+    "ended": "Ended",
+    "total": "Total",
+    "obtained": "Obtained",
+    "passing": "Passing",
     "firstTermExam": "First Term Exam",
     "noExamsFound": "No exams found",
     "noDataAvailable": "No exam data available",
@@ -149,7 +183,14 @@
     "inProgress": "In Progress",
     "daysLeft": "days left",
     "resultCard": "Result Card",
-    "exam": "Exam"
+    "exam": "Exam",
+    "results": "Results",
+    "upcoming": "Upcoming",
+    "papers": "papers",
+    "inDays": "in {count} days",
+    "inDay": "in 1 day",
+    "upNext": "Up next",
+    "dateSheet": "Date sheet"
   },
   "messages": {
     "title": "Messages",
@@ -158,7 +199,10 @@
     "typeAMessage": "Type a message...",
     "reply": "Reply",
     "noMessagesFound": "No messages found",
-    "cannotGetMessages": "Cannot get messages"
+    "cannotGetMessages": "Cannot get messages",
+    "searchConversations": "Search conversations",
+    "noResultsFound": "No conversations match your search",
+    "newMessage": "New message"
   },
   "navigation": {
     "homework": "Homework",
@@ -218,6 +262,9 @@
     "selectYear": "Select Year",
     "failedToChangeLanguage": "Failed to change language.",
     "chooseLanguage": "Choose Language",
+    "chooseStudent": "Choose Student",
+    "switchChild": "Switch Child",
+    "addChild": "Add child",
     "language": "Language",
     "activeRole": "Active Role",
     "preferences": "Preferences",
@@ -291,7 +338,12 @@
     "noRecord": "No record",
     "late": "Late",
     "leave": "Leave",
-    "off": "Off"
+    "off": "Off",
+    "holiday": "Holiday",
+    "missedClasses": "Missed Classes",
+    "totalMissedClasses": "Total Missed Classes",
+    "belowThreshold": "Your attendance is {percent}% — below the required {threshold}%",
+    "monthlyBreakdown": "Monthly Breakdown"
   },
   "leaves": {
     "totalLeaves": "Total Leaves",
@@ -306,13 +358,27 @@
     "enterLeaveDetails": "Enter leave details",
     "addAttachments": "Add Attachments",
     "submitApplication": "Submit Application",
-    "datesLabel": "Date(s)"
+    "datesLabel": "Date(s)",
+    "leaveHistory": "Leave History",
+    "requestedBy": "Requested By"
   },
   "notices": {
     "untitled": "Untitled",
     "noticeNotFound": "Notice not found",
     "notice": "Notice",
-    "noticeNumber": "Notice N°"
+    "noticeNumber": "Notice N°",
+    "searchNotices": "Search notices",
+    "unread": "Unread",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "earlier": "Earlier",
+    "noResultsFound": "No notices match your search",
+    "noticeDetails": "Notice details",
+    "questions": "Questions",
+    "questionsPrivacyNote": "Only you and the school can see these",
+    "schoolAdmin": "School Admin",
+    "noQuestionsYet": "No questions yet — ask one below",
+    "askAQuestion": "Ask a question"
   },
   "stories": {
     "new": "New",
@@ -339,11 +405,13 @@
     "quickAccess": "Quick access",
     "latestNotices": "Latest notices",
     "seeAll": "See all",
+    "seeLess": "See less",
     "submitBy": "Submit by {time}",
     "noOutstandingFee": "No pending fee dues",
-    "noHomeworkToday": "No homework due today",
+    "noHomeworkToday": "No homework today",
     "presentThisMonth": "{percent}% this month",
     "checkedInToday": "Checked in today",
-    "homeworkDueToday": "{count} due today"
+    "homeworkDueToday": "{count} due today",
+    "thisMonth": "This month"
   }
 }
