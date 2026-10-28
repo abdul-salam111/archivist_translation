@@ -147,7 +147,7 @@
     "discount": "Descuento",
     "feeBreakdown": "Desglose de cuotas",
     "itemsCount": "{count} elementos",
-    "downloadReceipt": "Descargar recibo",
+    "downloadReceipt": "Descargar voucher",
     "voucherDetails": "Detalles del comprobante"
   },
   "exams": {
@@ -327,7 +327,7 @@
   "attendance": {
     "monthly": "Mensual",
     "yearly": "Anual",
-    "missed": "Faltado",
+    "missed": "Materias Perdidas",
     "monthlyAttendance": "Asistencia mensual",
     "yearlyAttendance": "Asistencia anual",
     "present": "Presente",
