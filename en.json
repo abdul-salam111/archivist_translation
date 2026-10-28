@@ -1,7 +1,7 @@
 {
   "auth": {
     "helloAgain": "Hello Again",
-    "logIntoYourAccount": "Log into your account",
+    "logIntoYourAccount": "Log in to your account",
     "appTagline": "Homework, attendance and fees — all in one place.",
     "whatsappNumber": "WhatsApp number",
     "usedForWhatsappNumber": "Used for your WhatsApp number",
@@ -147,7 +147,7 @@
     "discount": "Discount",
     "feeBreakdown": "Fee Breakdown",
     "itemsCount": "{count} items",
-    "downloadReceipt": "Download receipt",
+    "downloadReceipt": "Download voucher",
     "voucherDetails": "Voucher details"
   },
   "exams": {
@@ -327,7 +327,7 @@
   "attendance": {
     "monthly": "Monthly",
     "yearly": "Year",
-    "missed": "Missed",
+    "missed": "Missed Subjects",
     "monthlyAttendance": "Monthly Attendance",
     "yearlyAttendance": "Yearly Attendance",
     "present": "Present",
