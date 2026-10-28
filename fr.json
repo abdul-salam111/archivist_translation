@@ -147,7 +147,7 @@
     "discount": "Remise",
     "feeBreakdown": "Détail des frais",
     "itemsCount": "{count} éléments",
-    "downloadReceipt": "Télécharger le reçu",
+    "downloadReceipt": "Télécharger le bon",
     "voucherDetails": "Détails du bon"
   },
   "exams": {
@@ -327,7 +327,7 @@
   "attendance": {
     "monthly": "Mensuel",
     "yearly": "Annuel",
-    "missed": "Manqué",
+    "missed": "Matières Manquées",
     "monthlyAttendance": "Présence mensuelle",
     "yearlyAttendance": "Présence annuelle",
     "present": "Présent",
